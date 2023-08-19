@@ -58,6 +58,11 @@
     }
 </style>
 <body>
+  <script>
+    function alertUser() {
+      alert("A notification has been sent to administrator");
+    }
+    </script>
 
 <form action="action_page.php">
   <div class="container">
@@ -69,7 +74,7 @@
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
     <p>By deleting your account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Confirm</button>
+    <button type="submit" class="registerbtn" onclick="alertUser()">Confirm</button>
   </div>
 
 </form>
